@@ -1,5 +1,5 @@
-Summary:	xauth application
-Summary(pl):	Aplikacja xauth
+Summary:	xauth - X authority file utility
+Summary(pl):	xauth - narzêdzie do plików X authority
 Name:		xorg-app-xauth
 Version:	0.99.0
 Release:	0.02
@@ -13,13 +13,24 @@ BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-util-util-macros
+Obsoletes:	X11-xauth
+Obsoletes:	XFree86-xauth
+Obsoletes:	xauth
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xauth application.
+The xauth program is used to edit and display the authorization
+information used in connecting to the X server. This program is
+usually used to extract authorization records from one machine and
+merge them in on another (as is the case when using remote logins or
+granting access to other users).
 
 %description -l pl
-Aplikacja xauth.
+Program xauth s³u¿y do edycji i wy¶wietlania informacji
+autoryzacyjnych u¿ywanych przy ³±czeniu z X serwerem. Ten program
+przewa¿nie jest u¿ywany do wyci±gania rekordów autoryzacji z jednej
+maszyny i do³±czania ich na innej (w celu umo¿liwienia zdalnego
+logowania lub udostêpnienia innym u¿ytkownikom).
 
 %prep
 %setup -q -n xauth-%{version}
