@@ -1,19 +1,20 @@
 Summary:	xauth - X authority file utility
 Summary(pl):	xauth - narzêdzie do plików X authority
 Name:		xorg-app-xauth
-Version:	0.99.2
+Version:	0.99.3
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC2/app/xauth-%{version}.tar.bz2
-# Source0-md5:	00ecafeae7f688b7e6f49b5350389ad0
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xauth-%{version}.tar.bz2
+# Source0-md5:	e54c7cc9596988ab0da31fd7596e75c0
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
+# just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-xtrans-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.1
+BuildRequires:	xorg-util-util-macros >= 0.99.2
 Obsoletes:	X11-xauth
 Obsoletes:	XFree86-xauth
 Obsoletes:	xauth
@@ -49,8 +50,7 @@ logowania lub udostêpnienia innym u¿ytkownikom).
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	appmandir=%{_mandir}/man1
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
