@@ -1,5 +1,5 @@
 Summary:	xauth - X authority file utility
-Summary(pl.UTF-8):   xauth - narzędzie do plików X authority
+Summary(pl.UTF-8):	xauth - narzędzie do plików X authority
 Name:		xorg-app-xauth
 Version:	1.0.2
 Release:	2
