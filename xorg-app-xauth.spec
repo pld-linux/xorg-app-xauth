@@ -1,5 +1,5 @@
 Summary:	xauth - X authority file utility
-Summary(pl):	xauth - narzêdzie do plików X authority
+Summary(pl.UTF-8):   xauth - narzÄ™dzie do plikÃ³w X authority
 Name:		xorg-app-xauth
 Version:	1.0.2
 Release:	2
@@ -29,12 +29,12 @@ usually used to extract authorization records from one machine and
 merge them in on another (as is the case when using remote logins or
 granting access to other users).
 
-%description -l pl
-Program xauth s³u¿y do edycji i wy¶wietlania informacji
-autoryzacyjnych u¿ywanych przy ³±czeniu z X serwerem. Ten program
-przewa¿nie jest u¿ywany do wyci±gania rekordów autoryzacji z jednej
-maszyny i do³±czania ich na innej (w celu umo¿liwienia zdalnego
-logowania lub udostêpnienia innym u¿ytkownikom).
+%description -l pl.UTF-8
+Program xauth sÅ‚uÅ¼y do edycji i wyÅ›wietlania informacji
+autoryzacyjnych uÅ¼ywanych przy Å‚Ä…czeniu z X serwerem. Ten program
+przewaÅ¼nie jest uÅ¼ywany do wyciÄ…gania rekordÃ³w autoryzacji z jednej
+maszyny i doÅ‚Ä…czania ich na innej (w celu umoÅ¼liwienia zdalnego
+logowania lub udostÄ™pnienia innym uÅ¼ytkownikom).
 
 %prep
 %setup -q -n xauth-%{version}
