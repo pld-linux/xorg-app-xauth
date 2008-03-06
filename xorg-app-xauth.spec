@@ -16,7 +16,7 @@ BuildRequires:	xorg-lib-libXext-devel
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-xtrans-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.2
+BuildRequires:	xorg-util-util-macros >= 1.1
 Obsoletes:	X11-xauth < 1:7.0.0
 Obsoletes:	XFree86-xauth < 1:7.0.0
 Obsoletes:	xauth < 1:7.0.0
