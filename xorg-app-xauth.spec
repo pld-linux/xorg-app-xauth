@@ -16,7 +16,7 @@ BuildRequires:	xorg-lib-libXext-devel
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-xtrans-devel
-BuildRequires:	xorg-util-util-macros >= 1.1
+BuildRequires:	xorg-util-util-macros >= 1.3
 Obsoletes:	X11-xauth < 1:7.0.0
 Obsoletes:	XFree86-xauth < 1:7.0.0
 Obsoletes:	xauth < 1:7.0.0
@@ -59,6 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
+%doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xauth
 %{_mandir}/man1/xauth.1x*
