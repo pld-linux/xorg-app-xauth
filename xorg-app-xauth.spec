@@ -1,14 +1,14 @@
 Summary:	xauth - X authority file utility
 Summary(pl.UTF-8):	xauth - narzędzie do plików X authority
 Name:		xorg-app-xauth
-Version:	1.0.4
+Version:	1.0.5
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xauth-%{version}.tar.bz2
-# Source0-md5:	fa00078c414c4a57cab7a6d89a0c8734
+# Source0-md5:	46fc44e5e947d3720f3be5054044ff0e
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXau-devel
@@ -16,7 +16,7 @@ BuildRequires:	xorg-lib-libXext-devel
 # just xmuu
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-xtrans-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.8
 Obsoletes:	X11-xauth < 1:7.0.0
 Obsoletes:	XFree86-xauth < 1:7.0.0
 Obsoletes:	xauth < 1:7.0.0
